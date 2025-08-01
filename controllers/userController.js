@@ -21,12 +21,12 @@ const sendVerifyMail = async(name, email, id, host = "http://127.0.0.1:3000")=>{
             secure:false,
             requireTLS:true,
             auth:{
-                user:"suruchisharm02@gmail.com", //  email address
+                user:"@gmail.com", //  email address
                 pass:"**** **** **** ****" // yesma App Password
             }
         });
         const mailOptions = {
-            from:"suruchisharm02@gmail.com",
+            from:"@gmail.com",
             to:email,
             subject:"For Mail Verification",
             
